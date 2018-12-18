@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				0B74112F21C958EF0069AE2B /* AppDelegate.swift */,
-				0B74113121C958EF0069AE2B /* ViewController.swift */,
-				0B74113321C958EF0069AE2B /* Main.storyboard */,
 				0B74113921C958F00069AE2B /* Assets.xcassets */,
 				0B74113B21C958F00069AE2B /* LaunchScreen.storyboard */,
-				0B74113E21C958F00069AE2B /* Info.plist */,
 				0B74113621C958EF0069AE2B /* Concentration.xcdatamodeld */,
+				0B74113121C958EF0069AE2B /* ViewController.swift */,
+				0B74113321C958EF0069AE2B /* Main.storyboard */,
+				0B74113E21C958F00069AE2B /* Info.plist */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
