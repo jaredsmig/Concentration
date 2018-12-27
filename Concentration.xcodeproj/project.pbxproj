@@ -13,6 +13,8 @@
 		0B74113821C958EF0069AE2B /* Concentration.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B74113621C958EF0069AE2B /* Concentration.xcdatamodeld */; };
 		0B74113A21C958F00069AE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B74113921C958F00069AE2B /* Assets.xcassets */; };
 		0B74113D21C958F00069AE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B74113B21C958F00069AE2B /* LaunchScreen.storyboard */; };
+		0BBA0A3F21C9799800B98D96 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA0A3E21C9799800B98D96 /* Concentration.swift */; };
+		0BBA0A4121C97A5200B98D96 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBA0A4021C97A5200B98D96 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B74113921C958F00069AE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B74113C21C958F00069AE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B74113E21C958F00069AE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBA0A3E21C9799800B98D96 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		0BBA0A4021C97A5200B98D96 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				0B74112F21C958EF0069AE2B /* AppDelegate.swift */,
-				0B74113121C958EF0069AE2B /* ViewController.swift */,
-				0B74113321C958EF0069AE2B /* Main.storyboard */,
 				0B74113921C958F00069AE2B /* Assets.xcassets */,
 				0B74113B21C958F00069AE2B /* LaunchScreen.storyboard */,
-				0B74113E21C958F00069AE2B /* Info.plist */,
 				0B74113621C958EF0069AE2B /* Concentration.xcdatamodeld */,
+				0B74113121C958EF0069AE2B /* ViewController.swift */,
+				0B74113321C958EF0069AE2B /* Main.storyboard */,
+				0BBA0A3E21C9799800B98D96 /* Concentration.swift */,
+				0BBA0A4021C97A5200B98D96 /* Card.swift */,
+				0B74113E21C958F00069AE2B /* Info.plist */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B74113221C958EF0069AE2B /* ViewController.swift in Sources */,
+				0BBA0A3F21C9799800B98D96 /* Concentration.swift in Sources */,
+				0BBA0A4121C97A5200B98D96 /* Card.swift in Sources */,
 				0B74113821C958EF0069AE2B /* Concentration.xcdatamodeld in Sources */,
 				0B74113021C958EF0069AE2B /* AppDelegate.swift in Sources */,
 			);
@@ -286,7 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jared.smigelski@gmail.com (AD4R4T2863)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45HD2JTZ27;
+				"DEVELOPMENT_TEAM[sdk=*]" = 45HD2JTZ27;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +314,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jared.smigelski@gmail.com (AD4R4T2863)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45HD2JTZ27;
+				"DEVELOPMENT_TEAM[sdk=*]" = 45HD2JTZ27;
 				INFOPLIST_FILE = Concentration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
